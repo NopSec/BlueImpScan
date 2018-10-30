@@ -5,7 +5,7 @@
 Based on the following:
 
 [original Poc](https://github.com/lcashdol/Exploits/tree/master/CVE-2018-9206).
-[Python Poc](https://github.com/Den1al/CVE-2018-9206)
+[Python Poc](https://github.com/Den1al/CVE-2018-9206).
 
 ## Usage
 
@@ -32,6 +32,6 @@ pip3 install -r requirements.txt
 ```
 
 ## Authors
-[Larry Cashdollar](https://twitter.com/_larry0)
-[Daniel Abeles](https://twitter.com/Daniel_Abeles)
-[Shawn Evans](https://github.com/shawndevans)
+[Larry Cashdollar](https://twitter.com/_larry0).
+[Daniel Abeles](https://twitter.com/Daniel_Abeles).
+[Shawn Evans](https://github.com/shawndevans).
