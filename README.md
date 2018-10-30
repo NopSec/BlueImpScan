@@ -4,8 +4,9 @@
 
 Based on the following:
 
-[original Poc](https://github.com/lcashdol/Exploits/tree/master/CVE-2018-9206).
-[Python Poc](https://github.com/Den1al/CVE-2018-9206).
+[original Poc](https://github.com/lcashdol/Exploits/tree/master/CVE-2018-9206)
+
+[Python Poc](https://github.com/Den1al/CVE-2018-9206)
 
 ## Usage
 
@@ -31,7 +32,15 @@ optional arguments:
 pip3 install -r requirements.txt
 ```
 
+## Useful stuff to know
+
+* The path prefix is set to "jQuery-File-Upload-9.22.0", this may not reflect the default path of the vulnerable files on your server(s).  If the default setting fails I'd recommend trying "jQuery-File-Upload".
+
+* There is no output for hosts that are not vulnerable.  
+
 ## Authors
-[Larry Cashdollar](https://twitter.com/_larry0).
-[Daniel Abeles](https://twitter.com/Daniel_Abeles).
-[Shawn Evans](https://github.com/shawndevans).
+[Larry Cashdollar](https://twitter.com/_larry0)
+
+[Daniel Abeles](https://twitter.com/Daniel_Abeles)
+
+[Shawn Evans](https://github.com/shawndevans)
