@@ -130,7 +130,7 @@ def probe_web_shell(host, protocol):
                 'User-Agent': args.user_agent
             })
             if r.status_code == 200:
-                print(f'[*] {url]: {r.text}')
+                print(f'[*] {url}: {r.text}')
                 break
         except Exception as e:
             pass
